@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCountryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvConfirmedCasesLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvCountryName"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="Confirmed Cases:"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvConfirmedCases"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/tvConfirmedCasesLabel"
+            app:layout_constraintStart_toEndOf="@id/tvConfirmedCasesLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:layout_marginStart="2dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvDeathsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvConfirmedCasesLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="Total Deaths:"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvDeaths"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/tvDeathsLabel"
+            app:layout_constraintStart_toEndOf="@id/tvDeathsLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:layout_marginStart="2dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvRecoveredLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvDeathsLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="Recovered Cases:"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvRecoveredCases"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/tvRecoveredLabel"
+            app:layout_constraintStart_toEndOf="@id/tvRecoveredLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:layout_marginStart="2dp"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
