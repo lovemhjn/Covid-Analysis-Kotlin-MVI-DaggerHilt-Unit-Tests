@@ -9,6 +9,7 @@ import androidx.appcompat.widget.AppCompatTextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
 import com.app.covidanalysis.R
 import com.app.covidanalysis.ui.DataStateListener
 import com.app.covidanalysis.ui.home.summary.state.MainStateEvent
@@ -36,6 +37,7 @@ class SummaryFragment : Fragment(R.layout.fragment_summary) {
         subscribeObservers()
         triggerGetSummaryEvent()
         initRecyclerView()
+
     }
 
     private fun initRecyclerView() {

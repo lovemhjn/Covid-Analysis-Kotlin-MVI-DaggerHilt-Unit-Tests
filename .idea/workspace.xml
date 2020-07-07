@@ -1,12 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="fata" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eeed9f7-f3e7-4ab1-a8f2-00c16f8e8912" name="Default Changelist" comment="" />
+    <list default="true" id="1eeed9f7-f3e7-4ab1-a8f2-00c16f8e8912" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/app/covidanalysis/model/AnalyticsChartData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/app/covidanalysis/model/TimelineResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/app/covidanalysis/repository/TimelineRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/app/covidanalysis/ui/home/statistics/StatisticsViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/app/covidanalysis/ui/home/statistics/state/StatsStateEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/app/covidanalysis/ui/home/statistics/state/StatsViewState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/covidanalysis/api/ApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/covidanalysis/api/ApiService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/covidanalysis/constants/ServerConstants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/covidanalysis/constants/ServerConstants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/covidanalysis/ui/home/statistics/StatisticsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/covidanalysis/ui/home/statistics/StatisticsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/covidanalysis/ui/home/summary/SummaryFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/covidanalysis/ui/home/summary/SummaryFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/covidanalysis/ui/home/summary/SummaryRecyclerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/covidanalysis/ui/home/summary/SummaryRecyclerAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_summary.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="6378a8bd7d53" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -15,9 +45,41 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Covid Analysis" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Covid Analysis" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Covid Analysis" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,12 +92,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DEBUGGABLE_DEVICE" value="xiaomi-redmi_3s-6378a8bd7d53" />
+    <property name="DEBUGGABLE_PROCESS" value="com.app.covidanalysis" />
+    <property name="DEBUGGER_ID" value="Auto" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.app.covidanalysis.model" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -45,7 +116,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -108,12 +179,76 @@
       <option name="presentableId" value="Default" />
       <updated>1593417217982</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1593417421047</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593417421047</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="188" y="27" width="1078" height="741" key="CommitChangelistDialog2" timestamp="1593417349788">
+    <state x="490" y="115" key="#com.intellij.ide.util.MemberChooser" timestamp="1593928196423">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="188" y="27" width="1078" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1593417349788" />
+    <state x="490" y="115" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1593928196423" />
+    <state x="562" y="164" key="AndroidProcessChooserDialog" timestamp="1593926791365">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="562" y="164" key="AndroidProcessChooserDialog/67.27.1299.741@67.27.1299.741" timestamp="1593926791365" />
+    <state x="188" y="27" width="1078" height="741" key="CommitChangelistDialog2" timestamp="1594109433394">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="188" y="27" width="1078" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1594109433394" />
+    <state width="1253" height="274" key="GridCell.Tab.0.bottom" timestamp="1593929305710">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="274" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593929305710" />
+    <state width="1253" height="274" key="GridCell.Tab.0.center" timestamp="1593929305709">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="274" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1593929305709" />
+    <state width="1253" height="274" key="GridCell.Tab.0.left" timestamp="1593929305709">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="274" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1593929305709" />
+    <state width="1253" height="274" key="GridCell.Tab.0.right" timestamp="1593929305710">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="274" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1593929305710" />
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1593927008314">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593927008314" />
+    <state width="1253" height="219" key="GridCell.Tab.1.center" timestamp="1593927008313">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1593927008313" />
+    <state width="1253" height="219" key="GridCell.Tab.1.left" timestamp="1593927008313">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1593927008313" />
+    <state width="1253" height="219" key="GridCell.Tab.1.right" timestamp="1593927008313">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1593927008313" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1593417424780">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1593417424780" />
+    <state x="433" y="40" width="556" height="713" key="refactoring.ChangeSignatureDialog" timestamp="1594016129726">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="433" y="40" width="556" height="713" key="refactoring.ChangeSignatureDialog/67.27.1299.741@67.27.1299.741" timestamp="1594016129726" />
+    <state x="379" y="88" width="672" height="678" key="search.everywhere.popup" timestamp="1593509648041">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="379" y="88" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1593509648041" />
   </component>
 </project>

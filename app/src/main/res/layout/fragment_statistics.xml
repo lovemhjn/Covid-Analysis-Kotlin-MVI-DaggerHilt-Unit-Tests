@@ -1,14 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.home.statistics.StatisticsFragment">
+    android:layout_height="match_parent">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        tools:context=".ui.home.statistics.StatisticsFragment">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Cases"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            />
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChart"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="400dp" />
 
-</FrameLayout>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Deaths"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChartDeaths"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Recovered"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChartRecovered"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+
+
+    </LinearLayout>
+</ScrollView>
